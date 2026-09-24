@@ -1,0 +1,1 @@
+Bài này yêu cầu sửa lỗi tính cước GrabRide. Lỗi là khi đi trên 2 km, chương trình đã tính lại 2 km đầu tiên nên số tiền bị cao hơn thực tế. Em sửa lại để chỉ tính tiền số km vượt quá 2 km. Nếu trời mưa lớn thì cộng thêm 20%. Với chuyến đi 4 km và trời mưa lớn, tổng tiền đúng là 25.200 VNĐ.
