@@ -21,3 +21,6 @@ const devices = [
 updateDevice(devices, 1, { isActive: false });
 updateDevice(devices, 2, { powerWatts: 0 });
 console.log(devices);
+/*dạ Falsy là các giá trị được JavaScript coi là false khi kiểm tra điều kiện,ví dụ: false, 0,"", null, undefined, NaN.
+Trong bài này, if (updatedData.isActive) bỏ qua giá trị false và if(updatedData.powerWatts)bỏ qua giá trị 0.
+Cách sửa là dùng !== undefined để vẫn cập nhật được false và 0*/
